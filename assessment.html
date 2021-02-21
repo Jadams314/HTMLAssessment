@@ -2,10 +2,131 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Html Assessment</title>
   </head>
   <body>
-    <!-- TODO:
-      -->
+    <h1>Text</h1>
+    <div class="First">
+      <p><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <br>
+    <div class="Second">
+      <dd><strong>lorem </strong><i>psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i></dd>
+    </div>
+      <br>
+      <div class="Third">
+        <p> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <hr>
+      <h1>Table</h1>
+      <br>
+      <table border="1" align = center>
+        <tr>
+          <th> <b>Team Name</b> </th>
+          <th> <b>Q1</b> </th>
+          <th> <b>Q2</b> </th>
+          <th> <b>Q3</b> </th>
+          <th> <b>Q4</b> </th>
+          <th> <b>OT</b> </th>
+        </tr>
+        <tr><th>Patriots</th>
+          <td>0</td>
+          <td>3</td>
+          <td>6</td>
+          <td>19</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th>Falcons</th>
+          <td>0</td>
+          <td>21</td>
+          <td>7</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td>0</td>
+          <td>24</td>
+          <td>13</td>
+          <td>19</td>
+          <td>6</td>
+        </tr>
+        </table>
+    <h1>List</h1>
+
+    <ul>
+      <li>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjmCUKxW_VB8TjK6SQiOn2YI9E2IKDazB3eQ&usqp=CAU" alt="Patriots Logo">
+      </li>
+      <a href="https://www.patriots.com/">Patriots.com</a>
+      <ul>
+        <li><strong>Coach</strong> : Bill Belichick</li>
+        <li><strong>QB</strong></li>
+        <ol>
+          <li>Tom Brady</li>
+          <li>Jimmy Garoppolo</li>
+          <li>Jacoby Brissett</li>
+        </ol>
+      </ul>
+      <li>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXYKGtGRFeBXoTxJXSokegKd_CPiZwwk_2A&usqp=CAU" alt="Falcons Logo">
+      </li>
+      <a href="https://www.atlantafalcons.com/">Atlantsfalcons.com</a>
+      <ul>
+        <li> <strong>Coach</strong> : Arthur Smith </li>
+        <li> <strong>QB</strong> </li>
+        <ol>
+          <li>Matt Ryan</li>
+          <li>Matt Schaub</li>
+        </ol>
+      </ul>
+    </ul>
+    <h1>Form</h1>
+    <form id="Name entry">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname">
+</form>
+  <br>
+<form id="drop List">
+    <label for="Sport">Favorite Sport: </label>
+    <select class="sports" name="sports">
+      <option value="footBall">Foot Ball</option>
+      <option value="baseBall">Base Ball</option>
+      <option value="soccer">Soccer</option>
+      <option value="hockey">Hockey</option>
+    </select>
+  </form>
+  <br>
+  <form id="checklist">
+    I Have :
+    <label for="attended">Attended Games</label>
+    <input type="checkbox" value="attended">
+    <label for="played">Played</label>
+    <input type="checkbox" value="played">
+    <label for="coached">Coached</label>
+    <input type="checkbox" value="coached">
+    <label for="betOn">Bet On</label>
+    <input type="checkbox" value="betOn">
+  </form>
+  <br>
+  <form id="radio">
+    For this sport I prefer :
+
+  <input type="radio" id="amateur" name="type" value="amateur">
+  <label for="amateur">Amateur</label>
+  <input type="radio" id="college" name="type" value="college">
+  <label for="college">College</label>
+  <input type="radio" id="professional" name="professional" value="professional">
+  <label for="professional">Professional</label>
+  <br>
+  <br>
+  <input type="Submit" value="Submit">
+</form>
   </body>
 </html>
